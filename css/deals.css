@@ -12,15 +12,18 @@
 #dealCont{
     display: flex;
     padding: 1vw;
-    border: #5562f6 0.2vw solid;
-    color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #fff;
+    border: #5562f6 .2vw solid;
+    border-radius: .2vw;
 }
 #dealCont img{
     width: 15vw;
+    min-height: 15vw;
+    object-fit: contain;
 }
 #dealCont h2{
     font-size: 1.6vw;
@@ -43,6 +46,7 @@
     border: #5562f6 0.2vw solid;
     color: white;
 	border-radius: .2vw;
+    margin-top: auto;
 }
 #dealCont button:hover{
     background-color: #5562f6;

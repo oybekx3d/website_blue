@@ -26,21 +26,31 @@
 	padding: 0.5vw;
 	border: #5562f6 0.2vw solid;
 }
+#PCList{
+    display: grid;
+    grid-template-columns: auto auto auto;
+	grid-auto-rows: 1fr;
+    margin-bottom: 3vh;
+    margin: 3vw;
+    padding: 1vw;
+    gap: 4vw;
+}
 .pcContainer{
 	display: flex;
-	flex-direction: column;
-	color: #fff;
 	padding: 1vw;
-	border: #5562f6 0.2vw solid;
-	font-family: monospace;
+	flex-direction: column;
 	justify-content: center;
 	align-self: center;
+	text-align: center;
+	color: #fff;
+	border: #5562f6 0.2vw solid;
 	border-radius: .2vw;
+	font-family: monospace;
 }
 .pcContainer img{
 	width: 25vw;
-	height: auto;
-	margin: 0 auto;
+	height: 25vw;
+	object-fit: contain;
 }
 .pcContainer h2{
 	font-size: 1vw;
@@ -72,18 +82,11 @@
 	color: #fff;
 	padding: 0.4vw 0.2vw;
 	font-size: 1.5vw;
+	margin-top: auto;
 }
 .pcContainer button:hover{
 	background-color: #5562f6;
 	cursor: pointer;
-}
-#PCList{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-bottom: 3vh;
-    margin: 3vw;
-    padding: 1vw;
-    gap: 4vw;
 }
 #pcInfoCont{
 	z-index: 100;
