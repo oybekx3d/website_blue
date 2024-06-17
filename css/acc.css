@@ -1,7 +1,6 @@
 #mainMenuBanner{
     background-image: url("../imgs/accs_banner.svg");
 }
-
 #accList{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -23,20 +22,26 @@
 }
 #accCont img{
     width: 18vw;
+    align-self: 1/1;
+    object-fit: contain;
 }
 #accCont h2{
     font-size: 1.6vw;
     margin: 0;
-    margin-bottom: 3vh;
 }
 #accCont h3, p{
     font-size: 1.5vw;
     margin: 0;
     margin-bottom: 1vh;
 }
+#accCont h3{
+    margin: 1vh 0;
+    margin-top: auto;
+}
 #accCont p{
     font-size: 1vw;
     margin: 1vh 0;
+    vertical-align: top;
 }
 #accCont button{
     font-size: 2vw;
@@ -70,6 +75,7 @@
     #accCont button{
         font-size: 3vh;
         margin-bottom: 1vh;
+        padding: 1vh 20vw;
     }
     #accPrice{
         font-size: 2vh !important;

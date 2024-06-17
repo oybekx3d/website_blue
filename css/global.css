@@ -108,6 +108,7 @@ body{
     font-size: 1.5vw;
 }
 #mainMenuBanner button{
+	margin-top: 3vh;
     background-color: transparent;
     border: #fff 0.2vw solid;
     font-size: 1.7vw;
@@ -316,15 +317,16 @@ input{
 	border-radius: .2vw;
 	animation: fadeIn 1.5s;
 }
-#unavailableDiscordPopUp h4{
+#unavailableDiscordPopUp h3{
 	font-size: 1vw;
 	margin: 0;
 	margin-bottom: 2vh;
 }
 #unavailableDiscordPopUp button{
+	margin-top: 2vh;
 	background-color: #5562f6;
 	color: white;
-	font-size: 1vw;
+	font-size: 1.3vw;
 	border-radius: .2vw;
 }
 #unavailableDiscordPopUp button:hover{
@@ -334,6 +336,8 @@ input{
 	font-size: .9vw;
 }
 #popUpCloseBtn{
+	font-size: 1vw !important;
+	margin-top: 0 !important;
 	width: max-content;
 	margin-left: auto;
 	border-radius: .2vw;
@@ -454,4 +458,23 @@ input{
     .mobileHide{
         display: none !important;
     }
+	#unavailableDiscordPopUp{
+		width: 90vw;
+		right: 4vw;
+		bottom: 1vh;
+		padding: 1vw;
+	}
+	#unavailableDiscordPopUp h3{
+		font-size: 2vh;
+	}
+	#unavailableDiscordPopUp button{
+		font-size: 3vh;
+		margin-bottom: 1vh;
+	}
+	#unavailableDiscordPopUp p{
+		font-size: 1.8vh;
+	}
+	#popUpCloseBtn{
+		font-size: 2vh !important;
+	}
 }

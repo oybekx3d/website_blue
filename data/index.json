@@ -22,7 +22,7 @@
     "psuBuyLink":"https://google.com/psu",
     "id": "1"
 },
-    "2" : {
+    "3" : {
     "pcName":"Workstation & Gaming PC",
     "pcDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio reprehenderit veniam aliquam ratione, impedit numquam, modi deleniti, aspernatur iusto ea. Tenetur, deleniti aperiam.",
     "pcImg":"imgs/pc_empty.webp",
@@ -45,7 +45,7 @@
     "psuBuyLink":"https://google.com/psu",
     "id": "2"
     },
-    "3" : {
+    "4" : {
         "pcName":"Budget gaming PC",
         "pcDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio reprehenderit veniam aliquam ratione, impedit numquam, modi deleniti, aspernatur iusto ea. Tenetur, deleniti aperiam.",
         "pcImg":"imgs/pc_empty.webp",

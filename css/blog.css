@@ -26,10 +26,11 @@
 }
 #blog a:hover{
     background-color: #ff000009;
-}
+}   
 #blog img{
     width: 15vw;
     aspect-ratio: 1/1;
+    object-fit: contain;
 }
 #blog h2{
     font-weight: 1000;

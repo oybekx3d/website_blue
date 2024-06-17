@@ -7,11 +7,13 @@
     margin: 5vh 5vw;
     padding: 2vw;
     border: 0.2vw solid #5562f6;
-    gap: 2vw;
+    gap: 1vw;
+    width: 80vw;
+    max-width: 80vw;
 }
+
 #dealCont{
     display: flex;
-    padding: 1vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,6 +21,7 @@
     color: #fff;
     border: #5562f6 .2vw solid;
     border-radius: .2vw;
+    padding: 1vw;
 }
 #dealCont img{
     width: 15vw;
@@ -32,12 +35,13 @@
 }
 #dealCont h3, p{
     font-size: 1.5vw;
-    margin: 0;
-    margin-bottom: 1vh;
+    margin: 1vh 0;
+}
+#dealCont h3{
+    margin-top: auto;
 }
 #dealCont h4{
     font-size: 1vw;
-    margin: 1vh 0;
 }
 #dealCont button{
     font-size: 2vw;
@@ -46,7 +50,6 @@
     border: #5562f6 0.2vw solid;
     color: white;
 	border-radius: .2vw;
-    margin-top: auto;
 }
 #dealCont button:hover{
     background-color: #5562f6;
